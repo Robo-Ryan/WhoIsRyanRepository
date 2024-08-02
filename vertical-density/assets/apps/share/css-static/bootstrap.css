@@ -157,6 +157,37 @@ a:hover {
 .row:after {
   clear: both;
 }
+
+/* New CSS for Flexbox alignment */
+.callout {
+  text-align: center; /* Center text within the callout */
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.special-line-height {
+  line-height: 1.5; /* Adjust as needed */
+}
+
+.small-font {
+  font-size: 0.9em; /* Adjust as needed */
+}
+
+/* Ensure Flexbox layout for columns */
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
 [class*="span"] {
   float: left;
   margin-left: 44px;
